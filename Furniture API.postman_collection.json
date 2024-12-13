@@ -1,0 +1,165 @@
+{
+	"info": {
+		"_postman_id": "ca3d90a4-4a82-4f9b-8109-9fa92e770bf2",
+		"name": "Furniture API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "37511972"
+	},
+	"item": [
+		{
+			"name": "Get Header",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://furniture-api-lumoshive-academy.vercel.app/api/header",
+					"protocol": "https",
+					"host": [
+						"furniture-api-lumoshive-academy",
+						"vercel",
+						"app"
+					],
+					"path": [
+						"api",
+						"header"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Data",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://furniture-api-lumoshive-academy.vercel.app/api/data",
+					"protocol": "https",
+					"host": [
+						"furniture-api-lumoshive-academy",
+						"vercel",
+						"app"
+					],
+					"path": [
+						"api",
+						"data"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Categories",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://furniture-api-lumoshive-academy.vercel.app/api/category",
+					"protocol": "https",
+					"host": [
+						"furniture-api-lumoshive-academy",
+						"vercel",
+						"app"
+					],
+					"path": [
+						"api",
+						"category"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Products with Pagination",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://furniture-api-lumoshive-academy.vercel.app/api/products?page=1&limit=5",
+					"protocol": "https",
+					"host": [
+						"furniture-api-lumoshive-academy",
+						"vercel",
+						"app"
+					],
+					"path": [
+						"api",
+						"products"
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "1"
+						},
+						{
+							"key": "limit",
+							"value": "5"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Random Testimonials",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://furniture-api-lumoshive-academy.vercel.app/api/testimonials?page=1&limit=5",
+					"protocol": "https",
+					"host": [
+						"furniture-api-lumoshive-academy",
+						"vercel",
+						"app"
+					],
+					"path": [
+						"api",
+						"testimonials"
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "1"
+						},
+						{
+							"key": "limit",
+							"value": "5"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Subscribe Email",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"email\": \"example@example.com\"\n}"
+				},
+				"url": {
+					"raw": "https://furniture-api-lumoshive-academy.vercel.app/api/subscribe",
+					"protocol": "https",
+					"host": [
+						"furniture-api-lumoshive-academy",
+						"vercel",
+						"app"
+					],
+					"path": [
+						"api",
+						"subscribe"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
