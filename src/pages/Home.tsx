@@ -5,6 +5,7 @@ import NewProduct from "../components/NewProduct";
 import BestProduct from "../components/BestProduct";
 import AllProduct from "../components/AllProduct";
 import Testimonials from "../components/Testimonials";
+import Banner from "../components/Banner";
 
 const Home: React.FC = () => {
   const data = {
@@ -48,6 +49,7 @@ const Home: React.FC = () => {
         <div className="p-14">
           <Testimonials/>
         </div >
+        <Banner/>
       </div>
     </>
   );
