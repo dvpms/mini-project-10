@@ -3,7 +3,7 @@ import React from 'react';
 const BestProduct: React.FC = () => {
     const data = {
         imageUrl:
-            "https://ik.imagekit.io/lumoshiveAcademy/Furniture/8f82d2c087c3c1808660cf2b4c6dc4a5.webp",
+            "https://s3-alpha-sig.figma.com/img/f60b/ac0a/80587cae68f9d90a8b1c2c3387d3f2eb?Expires=1734912000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=nven5L4Vt9UsrxlvQLFPrO1X4Y512W~0SjiQztvCRJhKuR~KkysCCp12AR2Csa6ysX8WiiF0Q73Di6IfLsBtbPOUIdbzY9Nr86lEDQVm~w0RsBaKC7ebdm7WHljMiAYDQvG5ke4ylva7oaaMEAf49C5h6o40SUPfPeYKhaOIJq58RZIy1KrLI0D0kODks2ZlgnoRMGGG3K3b3glYrx7CODl0w0xIVISbzSz60sr~fW3rGq5wzMSYo45rQ~r4ZXyb87YwJYX-jlOqJah~4jiVxdhyNFFFT1qd9SJ9FPJiRzT8S6oTcDYyRjlbE8cJNTqHX8Vui1uQt1bXkatK4x6n7A__",
     };
     
   return (
@@ -18,7 +18,7 @@ const BestProduct: React.FC = () => {
           </div>
           {/* Right Column - Image */}
           <div className="w-full">
-          <img src={data.imageUrl} alt="Comfortable Living Room" className="w-full h-full object-cover rounded-lg" />
+          <img src={data.imageUrl} alt="Comfortable Living Room" className="w-full h-[399px] object-cover rounded-lg" />
         </div>
 
         </div>

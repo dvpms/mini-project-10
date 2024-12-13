@@ -4,7 +4,7 @@ import { BsCheckCircleFill } from 'react-icons/bs';
 const About: React.FC = () => {
     const data = {
         imageUrl:
-            "https://ik.imagekit.io/lumoshiveAcademy/Furniture/8f82d2c087c3c1808660cf2b4c6dc4a5.webp",
+            "https://s3-alpha-sig.figma.com/img/29fc/b6ee/c1a6b8bfe25ce205553cb2aad2c02d09?Expires=1734912000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=ihOXuaxV9WXRRZdgebijjpC420cMixx4bxgLnUoV8yg2Wu6HcDmASKNmO4Z-mmGBsaxjQEmzBLZdRz-e6DOM2EJ7B~TiypfiJItGo690f4DqyVkzFu843ij3ElOVclFLg~-Pg5thVoJDkfb-4pJlMY~9dVipmj5K8IzLKBn4u5pCC90~N20CYX3OvTxVeO2BWS7qi7HejNQnIbb0VvB7ybvfBKTEDmAkpQcn-pc4vCyi-PxxaKpedPP4iRpdc~955xjSmWECTHlgB6DLOeMho0ZkC8B8L7hgPU~uGVp0aV9BDdSRmYIwId9dByL99wiwaSF1NmO1iIt9hITVVBAybw__",
     };
     
   return (
@@ -12,7 +12,7 @@ const About: React.FC = () => {
       <div className="grid grid-cols-2 gap-20 p-8">
         {/* Left Column - Image */}
         <div className="w-full">
-          <img src={data.imageUrl} alt="Comfortable Living Room" className="w-full h-full object-cover rounded-lg" />
+          <img src={data.imageUrl} alt="Comfortable Living Room" className="w-full h-[443px] object-cover rounded-lg" />
         </div>
 
         {/* Right Column - Content */}
