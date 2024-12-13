@@ -2,6 +2,8 @@ import React from "react";
 import Navbar from "../components/Navbar";
 import About from "../components/About";
 import NewProduct from "../components/NewProduct";
+import BestProduct from "../components/BestProduct";
+import AllProduct from "../components/AllProduct";
 
 const Home: React.FC = () => {
   const data = {
@@ -35,9 +37,13 @@ const Home: React.FC = () => {
         <div className="p-14">
           <About />
         </div >
-        <div className="">
-          <NewProduct />
-        </div>
+        <NewProduct />
+        <div className="p-14">
+          <BestProduct />
+        </div >
+        <div className="p-14">
+          <AllProduct/>
+        </div >
       </div>
     </>
   );
