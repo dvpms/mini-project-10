@@ -1,5 +1,6 @@
 import React from "react";
 import Navbar from "../components/Navbar";
+import About from "../components/About";
 
 const Home: React.FC = () => {
   const data = {
@@ -27,46 +28,9 @@ const Home: React.FC = () => {
           </button>
         </div>
       </div>
-      <div className="h-screen">
-        <div className="flex gap-5 p-40">
-          <img
-            src="https://picsum.photos/400/300"
-            alt=""
-          />
-          <div className="flex-col">
-            <h1>We Create Your Home More Aestetic</h1>
-            <p>
-              Furniture power is a software as services for multiperpose
-              business management system.
-            </p>
-            <ul>
-              <li className="flex">
-                <div className="icon"></div>
-
-                <div className="flex">
-                  <h2>Valuation Services</h2>
-                  <p>
-                    Sometimes features require a short description. This can be
-                    detailed description
-                  </p>
-                </div>
-              </li>
-              <li className="flex">
-                <div className="icon"></div>
-
-                <div className="flex">
-                  <h2>Development of Furniture Modelss</h2>
-                  <p>
-                    Sometimes features require a short description. This can be
-                    detailed description
-                  </p>
-                </div>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div className="h-screen"></div>
-      </div>
+      <div className="h-screen p-14">
+       <About/>
+      </div >
     </>
   );
 };
