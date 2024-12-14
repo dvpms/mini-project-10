@@ -1,9 +1,12 @@
 import React from 'react';
 import {
-    FacebookIcon,
+    FacebookShareButton,
+    TwitterShareButton,
     TwitterIcon,
 } from 'react-share';
 import { FaGithub } from 'react-icons/fa';
+import { FaTwitter } from 'react-icons/fa';
+import { FaFacebook } from 'react-icons/fa';
 import { FaInstagram } from 'react-icons/fa';
  const Footer: React.FC = () => {
     return (
@@ -17,12 +20,12 @@ import { FaInstagram } from 'react-icons/fa';
 
                     {/* Ikon Media Sosial */}
                     <div className="flex space-x-4">
-                        <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="text-white hover:text-gray-300">
-                            <FacebookIcon size={32} round={true} className="rounded-full" />
-                        </a>
-                        <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="text-white hover:text-gray-300">
-                            <TwitterIcon size={32} round={true} className="rounded-full" />
-                        </a>
+                        <FacebookShareButton url={"https://www.facebook.com"} className="shadow-lg">
+                            <FaFacebook size={32} className="rounded-full" />
+                        </FacebookShareButton>
+                        <TwitterShareButton url={"https://www.twitter.com"} className="">
+                            <FaTwitter size={32} className="rounded-full" />
+                        </TwitterShareButton>
                         <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="text-white hover:text-gray-300">
                             <FaGithub size={32} className="rounded-full" />
                         </a>
